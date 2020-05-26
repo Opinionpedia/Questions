@@ -1,5 +1,5 @@
 startString = '{"title":"Is '
-endString = ' a good company?", "tags": ["business", "america", "finance"], "answers": ["yes", "no", "not sure"]}'
+endString = ' a good company?", "tags": ["business", "america", "finance"], "options": ["yes", "no", "not sure"]}'
 
 f = open("smp500.txt", "r")
 
