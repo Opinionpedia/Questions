@@ -8,7 +8,8 @@ for x in soup.find_all('td'):
     if i == 1:
         print(x.a['title'])
     if i == 2:
-        print(x.a['href'])
+        if x.a:
+            print(x.a['href'])
     if i == 3:
         print(x.get_text())
         i = 0
