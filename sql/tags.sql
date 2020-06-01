@@ -2,6 +2,7 @@
 -- Tag 2, intended for profiles
 INSERT INTO tag (id, profile_id, name, description)
 VALUES (1, 5, 'Political', 'A set of activities that are associated with making decisions in a group'),
+       (2, 5, 'Man', 'An adult male human');
        (3, 5, 'Politics', 'A set of activities that are associated with making decisions in a group'),
        (4, 5, 'Corruption', 'A form of dishonesty or criminal offense undertaken by a person or organization entrusted with a position of authority, to acquire illicit benefit or abuse power for one''s private gain'),
        (5, 5, 'Freedom', 'The ability to act or change without constraint. Something is "free" if it can change easily and is not constrained in its present state'),
@@ -33,8 +34,6 @@ VALUES (1, 5, 'Political', 'A set of activities that are associated with making 
        (29, 5, 'US', ''),
        (30, 5, 'President', ''),
        (31, 5, 'Federal', ''),
-
-       (2, 5, 'Man', 'An adult male human');
 
 -- Profile 2 has tag 2.
 INSERT INTO profile_tag (tag_id, profile_id)
