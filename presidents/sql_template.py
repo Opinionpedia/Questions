@@ -20,7 +20,7 @@ f.close()
 
 #create corresponding question_tag set
 
-aString = "INSERT INTO profile_tag (tag_id, question_id) VALUES ("
+aString = "INSERT INTO question_tag (tag_id, question_id) VALUES ("
 bString = ", "
 cString = ");\n"
 
